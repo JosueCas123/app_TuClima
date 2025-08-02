@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
       // Navigate to the home screen after the delay
       if (mounted) {
         // Check if the widget is still mounted before navigating
-        context.push('/clima');
+        context.go('/clima');
       }
     });
   }
@@ -79,7 +79,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   onPressed: () {
                     // Navigate to the home screen when the button is pressed
                     _timer.cancel(); // Cancel the timer to prevent navigation if already done
-                    context.push('/clima');
+                    context.go('/clima');
                   },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
