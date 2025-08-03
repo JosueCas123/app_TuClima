@@ -2,8 +2,8 @@
 
 import 'package:app_tuclima/config/constants/enviroment.dart';
 import 'package:app_tuclima/domain/datasource/clima_datasource.dart';
-import 'package:app_tuclima/domain/entities/weather_entity.dart';
-import 'package:app_tuclima/infrastructure/models/weather_response_model.dart';
+
+
 import 'package:dio/dio.dart';
 
 class ClimaDatasource extends ClimasDatasource {
@@ -17,6 +17,7 @@ class ClimaDatasource extends ClimasDatasource {
       },
     ),
   );
+
 
   @override
   Future<Map<String, dynamic>> getForecast(String city) async {

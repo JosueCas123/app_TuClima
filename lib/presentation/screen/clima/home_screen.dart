@@ -1,4 +1,4 @@
-import 'dart:math';
+
 
 import 'package:app_tuclima/config/helpers/fomart_time.dart';
 import 'package:app_tuclima/infrastructure/repository/clima_repository.imp.dart';
@@ -143,7 +143,7 @@ class _HomeViewState extends ConsumerState<_HomeView> {
                     borderRadius: BorderRadius.circular(15),
                   ),
                   filled: true,
-                  fillColor: Theme.of(context).colorScheme.surface.withOpacity(0.1),
+                  fillColor: Theme.of(context).colorScheme.surface,
                 ),
               ),
             ),
