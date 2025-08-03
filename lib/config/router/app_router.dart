@@ -13,7 +13,7 @@ final appRouter = GoRouter(
       path: '/',
       name: 'home',
       builder: (context, state) => const SplashScreen(),
-    ),
+      routes: [
     GoRoute(
       path: '/clima',
       name: 'clima',
@@ -31,6 +31,9 @@ final appRouter = GoRouter(
           next7days: args['next7days'],
         );
       },
+    ),
+
+      ]
     ),
   ],
 );
