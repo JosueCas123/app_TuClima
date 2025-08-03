@@ -33,4 +33,15 @@ Pasos
 
 
 La aplicación sigue los principios de **Arquitectura Limpia (Clean Architecture)** con una estructura bien definida de capas:
-A new Flutter project.
+
+## Problemas
+
+Si bien se quiso implemtar la arquitectura Clean Architecture tuve problemas al mapear la data de weatherapi, 
+
+
+## Implementaciones Futuras
+
+- Botton navigation bar
+- seccion guardar clima de cuidades en especificas 
+
+
